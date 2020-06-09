@@ -6,6 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+# code your input_to_index and move method here!
 def input_to_index(num_str)
   valid_str_arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   num_str = num_str.strip
